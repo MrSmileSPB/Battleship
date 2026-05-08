@@ -1,0 +1,70 @@
+.lolkek {
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: black;
+    background-color: aquamarine;
+    transition: transform 1s ease;
+}
+.btn:active {
+    color: rgb(88, 91, 233);
+}
+.btn:hover {
+    background-color: rgb(235, 127, 217);
+}
+
+@media (max-width: 400px) {
+
+    .container {
+        justify-content: start;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.monitor {
+    min-height: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.reset_btn, .start_btn {
+    font-size: 1rem;
+    color: blue;
+    background-color: antiquewhite;
+}
+
+@media (max-width: 400px) {
+
+    .reset_btn, .start_btn {
+        width: 100%;
+    }
+}
