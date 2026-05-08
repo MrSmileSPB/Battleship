@@ -2,8 +2,6 @@
 
 require('../css/styles.css');
 require('../css/test.css');
-require('../css/components/validForm.css');
-
 
 console.log('✅ script.js загружен');
 
